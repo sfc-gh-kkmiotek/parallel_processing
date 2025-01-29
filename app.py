@@ -21,7 +21,7 @@ APIS = [
             "forecast_days": 1
         },
         "processor": "weather",
-        "latency": 1.5  # Simulated latency in seconds
+        "latency": 5.0  # Simulated latency in seconds
     },
     {
         "name": "Crypto Prices",
@@ -32,7 +32,7 @@ APIS = [
             "interval": "daily"
         },
         "processor": "crypto",
-        "latency": 2.0
+        "latency": 5.0
     },
     {
         "name": "Stock Market",
@@ -44,7 +44,7 @@ APIS = [
             "apikey": "demo"
         },
         "processor": "stocks",
-        "latency": 0.8
+        "latency": 5.0
     }
 ]
 
